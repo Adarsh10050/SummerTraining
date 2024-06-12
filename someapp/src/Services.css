@@ -1,0 +1,55 @@
+/* LostAndFound.css */
+
+.lost-and-found-container {
+  background: url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?w=1060&t=st=1718041325~exp=1718041925~hmac=097ac47b593ae2bbe80215d18444b7e01e7edf329116bdd73ab567d63d4edbdd');
+  background-attachment: fixed;
+  background-color: black;
+  padding: 3rem;
+  text-align: center;
+}
+
+.lost-and-found-container h2 {
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.lost-and-found-content {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 300px;
+  width: 100%;
+  text-align: left;
+  /*box-shadow: 1px 1px 1px yellow;*/
+  filter: drop-shadow(1px 1px 20px yellow);
+  transition: transform 0.2s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.item p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
